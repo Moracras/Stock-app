@@ -24,7 +24,11 @@ const Login = () => {
     .matches(/[a-z]/,"Password must contain at least one lowercase letter.")
     .matches(/[A-Z]/,"Password must contain at least one uppercase letter.")
     .matches(/[@$!%*?&]+/, "Password must contain at least one special character.(@$!%*?&)")
+    
+    
   });
+  
+  
     return (
     <Container maxWidth="lg">
       <Grid

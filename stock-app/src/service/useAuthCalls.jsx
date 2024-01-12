@@ -48,6 +48,7 @@ const useAuthCalls = () => {
       navigate("/stock")
     } catch (error) {
       dispatch(fetchFail())
+      toastErrorNotify("Registration is failed.")
     }
   }
 
